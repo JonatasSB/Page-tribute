@@ -1,0 +1,191 @@
+* {
+    box-sizing: border-box;
+    color: #ffe;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(19, 19, 21, 0.918);
+}
+header {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    max-width: 900px;
+}
+header .header {
+    margin: 0px;
+}
+header .container {
+    margin: auto;
+    flex-direction: column;
+    border-bottom: 2px solid #3c3c3c;
+    
+}
+header .subtitulo_header,
+header .titulo_header {
+    text-align: center;
+    text-shadow: 0px 5px 7px #7c7c7c;
+    margin:0;
+    display: flex;
+    justify-content: center;
+}
+#banner {
+    height: 400px;
+    background-image: url('https://oretalho.com.br/wp-content/uploads/2020/05/R5ydIeL.jpg');
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+}
+.container .frase_banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.container q {
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 24px;
+    color: #000;
+    text-shadow: 2px 2px 7px #fff;
+    max-width: 500px;
+}
+#geral {
+    display: flex;
+    justify-content: center;
+}
+.title_bio {
+    text-transform: uppercase;
+    margin: 20px 0px 0px 0px;
+    text-align: center;
+    font-size: 49px;
+    font-weight: bold;
+    font-family: 'Nerko One', cursive;
+}
+main .bio_geral {
+    text-align: center;
+    font-size: 20px;
+}
+.bar_title {
+    margin: auto;
+    margin-bottom: 5px;
+    width: 100px;
+    height: 1px;
+    background-color: #3c3c3c;
+}
+p a {
+    text-decoration: none;
+    font-weight: bold;
+}
+.some_hits {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.title_bio h1 {
+    text-transform: uppercase;
+    margin: auto;
+    text-align: center;
+    font-size: 49px;
+    font-weight: bold;
+    font-family: 'Nerko One', cursive;
+}
+#geral_2 {
+    display: flex;
+    justify-content: center;
+}
+.songs {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.songs a {
+    max-width: 430px;
+    max-height: 222px;
+    text-decoration: none;
+    display: flex;
+}
+.songs p {
+    margin: 0;
+    text-align: right;
+    font-size: 14px;
+    font-weight: bold;
+}
+.pt2 p,
+.pt3 p {
+    font-size: 13px;
+}
+article {
+    margin-bottom: 15px;
+}
+article:hover {
+    box-shadow: 3px 3px 70px #5c5c5c;
+}
+.songs .title_song {
+    font-size: 20px;
+}
+.songs .bar_title {
+    margin: 0px 0px 8px 0px;
+}
+.songs img {
+    max-height: 122px;
+}
+
+#show_gallery .bar_title {
+    margin-bottom: 25px
+}
+#show_gallery .title_bio {
+    margin-top: 30px;
+}
+section .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+    flex: 1;
+}
+.row aside  {
+
+    margin: auto;
+    box-shadow: -1px -2px 82px -4px rgba(117,115,117,1);
+}
+footer {
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    background-color: #000;
+    margin-top: 30px;
+    min-height: 100px;
+}
+address {
+    margin: 20px;
+}
+address a {
+
+}
+.link-chorao{
+    padding: 5px;
+    text-decoration: none;
+    border: 1px solid #2c2c2c;
+    border-end-start-radius: 15px;
+    border-start-end-radius: 15px;
+}
+.link-jonatas {
+    text-decoration: none;
+    padding: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #4c4c4c;
+    font-size: 13px;
+}
+.link-chorao:hover {
+    background-color: #111;
+}
