@@ -153,7 +153,6 @@ section .row {
     flex: 1;
 }
 .row aside  {
-
     margin: auto;
     box-shadow: -1px -2px 82px -4px rgba(117,115,117,1);
 }
@@ -167,9 +166,6 @@ footer {
 }
 address {
     margin: 20px;
-}
-address a {
-
 }
 .link-chorao{
     padding: 5px;
