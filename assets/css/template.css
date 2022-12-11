@@ -81,7 +81,7 @@ main .bio_geral {
     height: 1px;
     background-color: #3c3c3c;
 }
-p a {
+main a {
     text-decoration: none;
     font-weight: bold;
 }
@@ -191,7 +191,7 @@ address {
         margin: 5px;
     }
     .songs p {
-        font-size: 10px;
+        font-size: 12px;
     }
     .row {
         flex-direction: column;
@@ -199,7 +199,7 @@ address {
     .row aside {
         margin-bottom: 10px;
     }
-    address, a {
+    address, address a {
         font-size: 8px;
     }
     #banner .frase_1 {
