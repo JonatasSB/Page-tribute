@@ -6,7 +6,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: rgba(19, 19, 21, 0.918);
+    background-color: #131315ea;
 }
 header {
     display: flex;
@@ -180,8 +180,29 @@ address {
     text-transform: uppercase;
     font-weight: bold;
     color: #4c4c4c;
-    font-size: 13px;
+    
 }
 .link-chorao:hover {
     background-color: #111;
+}
+@media (max-width:860px) {
+    .songs {
+        flex-direction: column;
+        margin: 5px;
+    }
+    .songs p {
+        font-size: 10px;
+    }
+    .row {
+        flex-direction: column;
+    }
+    .row aside {
+        margin-bottom: 10px;
+    }
+    address, a {
+        font-size: 8px;
+    }
+    #banner .frase_1 {
+        text-align: center;
+    }
 }
